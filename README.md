@@ -58,10 +58,10 @@ A rare and high-value investment opportunity to acquire two fully operational lu
 ## 📞 Confidential Inquiries & Private Viewings
 To request the full Information Memorandum (IM), financial statements, or to schedule a private, confidential on-site inspection, please contact:
 
-*   **Investment Relations:** [Your Name / Company Name]
-*   **Mobile/WhatsApp:** [+66 81-XXX-XXXX]
-*   **Email:** [investment@yourcompany.com]
-*   **Line ID / WeChat:** [@luxury_estate]
+*   **Investment Relations:** [Monthon Mahakijdumrongnukul]
+*   **Mobile/WhatsApp:** [+6680-657-8387]
+*   **Email:** [joecollection.m@gmail.com]
+*   **Line ID / WeChat:** [+6680-657-8387]
 
 [📥 Download Full Investment Pitch Deck (PDF)](https://example.com)
 
