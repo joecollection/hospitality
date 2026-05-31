@@ -1,4 +1,7 @@
-
+---
+layout: default
+title: "Joe Collection"
+description: "Prime Asset for Sale"
 ---
 
 <!-- โครงสร้างหัวข้อแบรนด์กึ่งกลางหน้าจอ -->
