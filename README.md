@@ -65,8 +65,14 @@ To request the full Information Memorandum (IM), financial statements, or to sch
 
 
 
-> 📄 **Exclusive Information Memorandum**
-> [📥 Click here to download Full Investment Pitch Deck (PDF)](garden-cliff-analysis.pdf)
+---
+
+## 📑 Due Diligence & Investment Documents
+For qualified investors, please review the comprehensive analysis and project documentations below:
+
+*   **Financial & Market Report:** [🔗 Access Analysis Repo / File](https://raw.githubusercontent.com/joecollection/gardencliff-pattaya/refs/heads/main/index.html)
+*   **Property Brochure (PDF):** [📥 Download Brochure](garden-cliff-analysis.pdf)
+
 
 
 <!---
