@@ -18,6 +18,8 @@ A rare and high-value investment opportunity to acquire two fully operational lu
 *   **Premium Amenities:** World-class luxury spa, 2 international fine-dining restaurants, infinity-edge oceanfront pool, and a rooftop sky bar.
 *   **Performance:** Consistently high average occupancy rate of [75%] annually, catering to high-net-worth international travelers.
 
+![Hotel 1 Exterior][hotel1-main]
+*Exterior view of Property 1*
 
 ---
 
@@ -34,11 +36,12 @@ A rare and high-value investment opportunity to acquire two fully operational lu
 *   **Premium Amenities:** Grand ballroom and convention center (400-pax capacity), 24/7 executive fitness lounge, and an executive sky lounge.
 *   **Performance:** Exceptional corporate and leisure demand with an average occupancy rate of [82%] annually.
 
+![Hotel 2 Exterior][hotel2-main]
+*Exterior view of Property 2*
 
 ---
 
 ## 📈 Investment Portfolio Overview
-
 
 
 | Key Features | [Hotel 1 Name] | [Hotel 2 Name] |
@@ -63,3 +66,11 @@ To request the full Information Memorandum (IM), financial statements, or to sch
 [📥 Download Full Investment Pitch Deck (PDF)](https://example.com)
 
 
+<!--- 
+====================================================================
+IMAGE REFERENCES (คุณสามารถก๊อปปี้ลิงก์รูปจริงมาเปลี่ยนตรงนี้ได้เลยครับ)
+====================================================================
+--->
+
+[hotel1-main]: https://unsplash.com "Grand Ocean Luxury Resort"
+[hotel2-main]: https://unsplash.com "The Grand City Boutique Hotel"
