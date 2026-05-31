@@ -63,7 +63,10 @@ To request the full Information Memorandum (IM), financial statements, or to sch
 *   **Email:** [joecollection.m@gmail.com]
 *   **Line ID / WeChat:** [+6680-657-8387]
 
-[📥 Download Full Investment Pitch Deck (PDF)](https://example.com)
+
+
+> 📄 **Exclusive Information Memorandum**
+> [📥 Click here to download Full Investment Pitch Deck (PDF)](garden-cliff-analysis.pdf)
 
 
 <!---
