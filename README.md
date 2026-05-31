@@ -1,3 +1,19 @@
+<!-- ส่วนหัวข้อหลักและโลโก้แบรนด์ -->
+<div align="center">
+  <kbd style="font-size: 24px; padding: 10px 20px; font-weight: bold; font-family: 'Georgia', serif; letter-spacing: 2px;"> JOE COLLECTION </kbd>
+  <br><br>
+  <h1 style="font-size: 36px; border: none; margin-bottom: 5px;">👑 PRIME ASSET FOR SALE 👑</h1>
+  <p style="font-size: 18px; color: #666; font-style: italic;">Exclusive Hospitality & Premium Real Estate Investment Portfolios</p>
+</div>
+
+---
+
+
+
+
+
+
+
 # 🌟 EXCLUSIVE INVESTMENT OPPORTUNITY
 
 **Premium Hospitality Portfolios for Sale: Two Luxury Hotels in Prime Locations**  
