@@ -1,4 +1,3 @@
----
 # 🌟 EXCLUSIVE INVESTMENT OPPORTUNITY
 
 **Premium Hospitality Portfolios for Sale: Two Luxury Hotels in Prime Locations**  
