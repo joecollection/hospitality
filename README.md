@@ -70,7 +70,7 @@ To request the full Information Memorandum (IM), financial statements, or to sch
 ## 📑 Due Diligence & Investment Documents
 For qualified investors, please review the comprehensive analysis and project documentations below:
 
-*   **Financial & Market Report:** [🔗 Access Analysis Repo / File](https://raw.githubusercontent.com/joecollection/gardencliff-pattaya/refs/heads/main/index.html)
+*   **Financial & Market Report:** [🔗 Access Analysis Repo / File](https://joecollection.github.io/gardencliff-pattaya/)
 *   **Property Brochure (PDF):** [📥 Download Brochure](garden-cliff-analysis.pdf)
 
 
