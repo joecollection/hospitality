@@ -82,21 +82,49 @@ For qualified investors, please review the comprehensive analysis and project do
 
 ---
 
-## 🏢 2. [Hotel 2 Name, e.g., The Grand City Boutique Hotel]
-**Concept:** [e.g., Modern Luxury Business & Lifestyle Hotel in the Heart of the Central Business District]
+## 🏢 2. Mountain Beach Resort Pattaya
+**Concept:** Well-Established 4-Star Resort on Pratamnak Hill, Pattaya, Currently Managed by a Renowned Hospitality Operator with Strong Cash Flow and Stable Returns.
 
 ### 📍 Location & Strategic Advantages
-*   **Location:** [e.g., Sukhumvit Road, Bangkok, Thailand]
-*   **Total Land Area:** [e.g., 3 Rai 1 Ngan / Approx. 5,200 sq.m.]
-*   **Key Highlights:** Situated in the prime financial district, directly connected to mass transit stations (BTS/MRT), capturing premium business travelers.
+*   **Address:** 378/16, Moo 12, Nongprue Sub-district, Banglamung, Chonburi, Thailand.
+*   **Prime Neighborhood:** Strategically situated on the exclusive Pratamnak Hill (Cosy Beach area), surrounded by prestigious luxury properties including *Royal Cliff Beach Hotel Pattaya*, *InterContinental Pattaya Resort*, and *Cosy Beach Hotel*.
+*   **Tenure:** **Freehold** (Chanote Title Deed - Ready for absolute ownership transfer).
 
-### 📊 Property Specifications & Amenities
-*   **Room Inventory:** [e.g., 210 Elegantly Appointed Rooms & Suites]
-*   **Premium Amenities:** Grand ballroom and convention center (400-pax capacity), 24/7 executive fitness lounge, and an executive sky lounge.
-*   **Performance:** Exceptional corporate and leisure demand with an average occupancy rate of [82%] annually.
+### 📊 Summary of Key Facts
+
+
+
+| Feature | Property Specifications |
+| :--- | :--- |
+| **Current Operator** | Managed by Destination Hospitality Management Co., Ltd. |
+| **No. of Keys** | 318 Generously Sized Keys & Suites (High Volume Inventory) |
+| **No. of Storeys** | 8 Storeys (Classic Structural Layout) |
+| **Built / Opening** | Established in 1989 (Proven track record of long-term stability) |
+| **Site Area** | 5-0-0 Rai (2,000 Sq.wah or 8,000 sq.m.) |
+| **Total GFA** | Approx. 19,302 sq.m. |
+
+### 🍽️ Premium Facilities & Outlets
+*   **F&B Variety:** **4 Distinct Outlets** – Offering a wide range of dining experiences from casual beachfront vibes to fine international cuisine.
+*   **Resort Amenities:** Versatile Meeting & Banquet Facilities (Ideal for corporate events/MICE), Large Outdoor Swimming Pools, Fully-Equipped Fitness Centre, and a Rejuvenating Luxury Spa.
+
+### 📈 Financial & Average Performance Overview
+*   **Average Daily Rate (ADR):** 1,500 THB
+*   **Occupancy Rate (OCC):** 70%
+*   **Annual Revenue:** 158 Million THB (MB)
+
+> ### 💰 INVESTMENT ASKING PRICE
+> <span style="font-size: 22px; color: #d4af37; font-weight: bold; letter-spacing: 1px;">THB 900,000,000 (900 MB)</span>  
+> *Terms of sale and financial due diligence reports are available upon signing a Non-Disclosure Agreement (NDA).*
 
 ![Hotel 2 Exterior][hotel2-main]
-*Exterior view of Property 2*
+*Exterior view of Mountain Beach Resort Pattaya*
+
+## 📑 Due Diligence & Investment Documents
+For qualified investors, please review the comprehensive analysis and project documentations below:
+
+*   **Financial & Market Report:** [🔗 Access Analysis Repo / File](https://joecollection.github.io/gardencliff-pattaya/)
+*   **Property Brochure (PDF):** [📥 Download Brochure](garden-cliff-analysis.pdf)
+
 
 ---
 
