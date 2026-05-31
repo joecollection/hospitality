@@ -73,4 +73,4 @@ IMAGE REFERENCES (คุณสามารถก๊อปปี้ลิงก�
 --->
 
 [hotel1-main]: garden-cliff-info.jpeg "Grand Ocean Luxury Resort"
-[hotel2-main]: https://unsplash.com "The Grand City Boutique Hotel"
+[hotel2-main]: mb-info.jpeg "The Grand City Boutique Hotel"
