@@ -73,7 +73,11 @@ A rare and high-value investment opportunity to acquire two fully operational lu
 ![Hotel 1 Exterior][hotel1-main]
 *Exterior view of Garden Cliff Resort & Spa Pattaya*
 
+## 📑 Due Diligence & Investment Documents
+For qualified investors, please review the comprehensive analysis and project documentations below:
 
+*   **Financial & Market Report:** [🔗 Access Analysis Repo / File](https://joecollection.github.io/gardencliff-pattaya/)
+*   **Property Infographic (PDF):** [📥 Download Brochure](garden-cliff-analysis.pdf)
 
 
 ---
