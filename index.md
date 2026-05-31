@@ -70,8 +70,9 @@ A rare and high-value investment opportunity to acquire two fully operational lu
 > <span style="font-size: 22px; color: #d4af37; font-weight: bold; letter-spacing: 1px;">THB 1,700,000,000 (1,700 MB)</span>  
 > *Terms of sale and financial due diligence reports are available upon signing a Non-Disclosure Agreement (NDA).*
 
+
 ![Hotel 1 Exterior][hotel1-main]
-*Exterior view of Garden Cliff Resort & Spa Pattaya*
+
 
 ## 📑 Due Diligence & Investment Documents
 For qualified investors, please review the comprehensive analysis and project documentations below:
@@ -116,14 +117,16 @@ For qualified investors, please review the comprehensive analysis and project do
 > <span style="font-size: 22px; color: #d4af37; font-weight: bold; letter-spacing: 1px;">THB 900,000,000 (900 MB)</span>  
 > *Terms of sale and financial due diligence reports are available upon signing a Non-Disclosure Agreement (NDA).*
 
+
+
 ![Hotel 2 Exterior][hotel2-main]
-*Exterior view of Mountain Beach Resort Pattaya*
+
 
 ## 📑 Due Diligence & Investment Documents
 For qualified investors, please review the comprehensive analysis and project documentations below:
 
-*   **Financial & Market Report:** [🔗 Access Analysis Repo / File](https://joecollection.github.io/gardencliff-pattaya/)
-*   **Property Brochure (PDF):** [📥 Download Brochure](garden-cliff-analysis.pdf)
+*   **Financial & Market Report:** [🔗 Access Analysis Repo / File](https://joecollection.github.io/mountain-beach/)
+
 
 
 ---
@@ -131,12 +134,12 @@ For qualified investors, please review the comprehensive analysis and project do
 ## 📈 Investment Portfolio Overview
 
 
-| Key Features | [Hotel 1 Name] | [Hotel 2 Name] |
+| Key Features | [Garden Cliff Resort & Spa Pattaya] | [Mountain Beach Resort & Spa Pattaya] |
 | :--- | :---: | :---: |
-| **Classification** | 5-Star Beachfront Resort | 4.5-Star City Hotel |
-| **Total Inventory** | 165 Keys | 210 Keys |
+| **Classification** | 5-Star Beachfront Resort | 4-Star City Hotel |
+| **Total Inventory** | 249 Keys | 318 Keys |
 | **Hotel License** | Fully Licensed (Ready for Transfer) | Fully Licensed (Ready for Transfer) |
-| **Asking Price** | [USD XX Million / THB XXX Million] | [USD XX Million / THB XXX Million] |
+| **Asking Price** | [ THB 1,700 Million] | [ THB 900 Million] |
 
 *Note: The seller is open to both portfolio acquisition (both properties) or individual asset sales.*
 
@@ -155,10 +158,9 @@ To request the full Information Memorandum (IM), financial statements, or to sch
 ---
 
 ## 📑 Due Diligence & Investment Documents
-For qualified investors, please review the comprehensive analysis and project documentations below:
+For qualified investors, please review the comprehensive analysis and project documentations 
 
-*   **Financial & Market Report:** [🔗 Access Analysis Repo / File](https://joecollection.github.io/gardencliff-pattaya/)
-*   **Property Brochure (PDF):** [📥 Download Brochure](garden-cliff-analysis.pdf)
+
 
 
 
