@@ -1,18 +1,17 @@
 ---
 layout: default
-title: "Joe Collection"
-description: "Prime Asset for Sale"
 ---
 
-<!-- โครงสร้างหัวข้อแบรนด์กึ่งกลางหน้าจอ -->
+<!-- ส่วนหัวข้อหลักกลางหน้าจอ ดีไซน์ให้รับกับธีมสีมืด -->
 <div align="center">
-  <kbd style="font-size: 24px; padding: 10px 20px; font-weight: bold; font-family: 'Georgia', serif; letter-spacing: 2px;"> JOE COLLECTION </kbd>
-  <br><br>
-  <h1 style="font-size: 36px; border: none; margin-bottom: 5px; color: #fff;">👑 PRIME ASSET FOR SALE 👑</h1>
-  <p style="font-size: 18px; color: #a0aec0; font-style: italic;">Exclusive Hospitality & Premium Real Estate Investment Portfolios</p>
+  <br>
+  <h1 style="font-size: 40px; border: none; margin-bottom: 10px; color: #fff; font-family: 'Georgia', serif; letter-spacing: 1px;">👑 PRIME ASSETS FOR SALE 👑</h1>
+  <p style="font-size: 18px; color: #a0aec0; font-style: italic; margin-top: 0;">Exclusive Hospitality & Premium Real Estate Investment Opportunities</p>
+  <br>
 </div>
 
 ---
+
 
 
 ---
