@@ -37,21 +37,44 @@ A rare and high-value investment opportunity to acquire two fully operational lu
 
 ---
 
-## 🏢 1. [Hotel 1 Name, e.g., Grand Ocean Luxury Resort]
-**Concept:** [e.g., 5-Star Luxury Beachfront Resort with 360-Degree Panoramic Ocean Views]
+## 🏢 1. Garden Cliff Resort & Spa Pattaya
+**Concept:** 5-Star Luxury Beachfront Resort with Low-Density Architecture and Private Beach Access in Prime Naklua, Pattaya.
 
 ### 📍 Location & Strategic Advantages
-*   **Location:** [e.g., Patong Beach, Phuket, Thailand]
-*   **Total Land Area:** [e.g., 12 Rai 3 Ngan / Approx. 20,400 sq.m.]
-*   **Key Highlights:** 200-meter private white sand beach frontage, close proximity to international airport, and major tourist attractions.
+*   **Address:** 220/21, Moo 5, Soi 16 Naklua, Pattaya, Chonburi, Thailand.
+*   **High-End Neighborhood:** Surrounded by ultra-luxury hospitality brands including *Pullman Pattaya Hotel*, *Centara Grand Mirage*, and *Cape Dara Resort*.
+*   **Tenure:** **Freehold** (Chanote Title Deed - Ready for absolute ownership transfer).
 
-### 📊 Property Specifications & Amenities
-*   **Room Inventory:** [e.g., 150 Luxury Rooms & 15 Private Pool Villas]
-*   **Premium Amenities:** World-class luxury spa, 2 international fine-dining restaurants, infinity-edge oceanfront pool, and a rooftop sky bar.
-*   **Performance:** Consistently high average occupancy rate of [75%] annually, catering to high-net-worth international travelers.
+### 📊 Summary of Key Facts
+
+
+| Feature | Property Specifications |
+| :--- | :--- |
+| **No. of Keys** | 249 Premium Keys & Suites |
+| **No. of Storeys** | 8 Storeys (Elegant Low-Rise Beachfront Architecture) |
+| **Site Area** | 11-1-57 Rai (4,557 Sq.wah or 18,228 sq.m.) |
+| **Total GFA** | Approx. 22,000 sq.m. |
+| **FAR** | **1.2** 💡 *(Low FAR - Offering Significant Upside for Future Expansion)* |
+| **BOH : FOH Ratio** | 45 : 55 (Highly optimized back-of-house vs. front-of-house efficiency) |
+
+### 🍽️ Premium Facilities & Outlets
+*   **F&B Highlight:** **Blue Dragon Cafe & Beach Club** – A highly popular beachfront destination and the resort's signature social check-in point.
+*   **Resort Amenities:** Comprehensive Meeting & Banquet Facilities, Multiple Cascading Swimming Pools, Fully-Equipped Fitness Centre, Luxury Spa, Adventure Desk, and an On-site Convenience Store.
+
+### 📈 Financial & Average Performance Overview
+*   **Average Daily Rate (ADR):** 3,000 THB
+*   **Occupancy Rate (OCC):** 70%
+*   **Annual Revenue:** 248 Million THB (MB)
+
+> ### 💰 INVESTMENT ASKING PRICE
+> <span style="font-size: 22px; color: #d4af37; font-weight: bold; letter-spacing: 1px;">THB 1,700,000,000 (1,700 MB)</span>  
+> *Terms of sale and financial due diligence reports are available upon signing a Non-Disclosure Agreement (NDA).*
 
 ![Hotel 1 Exterior][hotel1-main]
-*Exterior view of Property 1*
+*Exterior view of Garden Cliff Resort & Spa Pattaya*
+
+
+
 
 ---
 
