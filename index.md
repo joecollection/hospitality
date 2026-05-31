@@ -2,13 +2,9 @@
 layout: default
 ---
 
-<!-- ส่วนหัวข้อหลักกลางหน้าจอ ดีไซน์ให้รับกับธีมสีมืด -->
-<div align="center">
-  <br>
-  <h1 style="font-size: 40px; border: none; margin-bottom: 10px; color: #fff; font-family: 'Georgia', serif; letter-spacing: 1px;">👑 PRIME ASSETS FOR SALE 👑</h1>
-  <p style="font-size: 18px; color: #a0aec0; font-style: italic; margin-top: 0;">Exclusive Hospitality & Premium Real Estate Investment Opportunities</p>
-  <br>
-</div>
+<p align="center" style="font-size: 18px; color: #a0aec0; font-style: italic; margin-top: -10px; margin-bottom: 30px;">
+  Exclusive Hospitality & Premium Real Estate Investment Opportunities
+</p>
 
 ---
 
