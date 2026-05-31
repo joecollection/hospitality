@@ -66,7 +66,7 @@ To request the full Information Memorandum (IM), financial statements, or to sch
 [📥 Download Full Investment Pitch Deck (PDF)](https://example.com)
 
 
-<!--- 
+<!---
 ====================================================================
 IMAGE REFERENCES (คุณสามารถก๊อปปี้ลิงก์รูปจริงมาเปลี่ยนตรงนี้ได้เลยครับ)
 ====================================================================
