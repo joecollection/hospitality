@@ -1,20 +1,4 @@
 ---
-layout: default
----
-
-<p align="center" style="font-size: 18px; color: #a0aec0; font-style: italic; margin-top: -10px; margin-bottom: 30px;">
-  Exclusive Hospitality & Premium Real Estate Investment Opportunities
-</p>
-
----
-
-
-
----
-
-
-
-
 
 
 
