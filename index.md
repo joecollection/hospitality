@@ -63,14 +63,14 @@ description: "Curated Portfolio of Ultra-Luxury Hospitality"
 <img src="garden-cliff-info.jpeg" alt="Garden Cliff Resort & Spa Pattaya" style="width: 100%; border-radius: 4px; margin-bottom: 20px;">
 
 <!-- 📑 BUTTONS FOR HOTEL 1 -->
-<div style="display: flex; flex-wrap: wrap; gap: 15px; margin-top: 10px; margin-bottom: 40px;">
+<div style="display: flex; flex-wrap: wrap; gap: 15px; margin-top: 10px; margin-bottom: 50px;">
   <a href="https://github.io" target="_blank" rel="noopener noreferrer" 
      style="display: inline-flex; align-items: center; justify-content: center; padding: 12px 24px; font-family: 'Georgia', serif; font-size: 14px; font-weight: bold; color: #111e2e; background-color: #d4af37; border: 1px solid #d4af37; border-radius: 4px; text-decoration: none; letter-spacing: 1px; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.2); transition: all 0.3s ease;">
     📊 ACCESS GARDEN CLIFF FINANCIAL REPORT &rarr;
   </a>
   <a href="hotel1-brochure.pdf" target="_blank" rel="noopener noreferrer" 
      style="display: inline-flex; align-items: center; justify-content: center; padding: 12px 24px; font-family: 'Georgia', serif; font-size: 14px; font-weight: bold; color: #ffffff; background-color: transparent; border: 1px solid #a0aec0; border-radius: 4px; text-decoration: none; letter-spacing: 1px; transition: all 0.3s ease;">
-    📥 DOWNLOAD PLOT 1 PITCH DECK (PDF)
+    📥 DOWNLOAD HOTEL 1 PITCH DECK (PDF)
   </a>
 </div>
 
@@ -91,8 +91,8 @@ description: "Curated Portfolio of Ultra-Luxury Hospitality"
 <table style="width: 100%; border-collapse: collapse; margin-bottom: 25px;">
   <tr style="border-bottom: 1px solid #333;"><td style="padding: 10px; font-weight: bold; width: 30%; color: #a0aec0;">Property Name</td><td style="padding: 10px; color: #fff;">Mountain Beach Resort Pattaya</td></tr>
   <tr style="border-bottom: 1px solid #333;"><td style="padding: 10px; font-weight: bold; width: 30%; color: #a0aec0;">Current Operator</td><td style="padding: 10px; color: #fff;">Destination Hospitality Management Co., Ltd.</td></tr>
-  <tr style="border-bottom: 1px solid #333;"><td style="padding: 10px; font-weight: bold; width: 30%; color: #a0aec0;">No. of Keys</td><td style="padding: 10px; color: #fff;">318 Generously Sized Keys & Suites (High Volume Inventory)</td></tr>
-  <tr style="border-bottom: 1px solid #333;"><td style="padding: 10px; font-weight: bold; width: 30%; color: #a0aec0;">No. of Storeys</td><td style="padding: 10px; color: #fff;">8 Storeys (Classic Structural Layout)</td></tr>
+  <tr style="border-bottom: 1px solid #333;"><td style="padding: 10px; font-weight: bold; color: #a0aec0;">No. of Keys</td><td style="padding: 10px; color: #fff;">318 Generously Sized Keys & Suites (High Volume Inventory)</td></tr>
+  <tr style="border-bottom: 1px solid #333;"><td style="padding: 10px; font-weight: bold; color: #a0aec0;">No. of Storeys</td><td style="padding: 10px; color: #fff;">8 Storeys (Classic Structural Layout)</td></tr>
   <tr style="border-bottom: 1px solid #333;"><td style="padding: 10px; font-weight: bold; color: #a0aec0;">Built / Opening</td><td style="padding: 10px; color: #fff;">Opened 1989 (Proven track record of long-term stability)</td></tr>
   <tr style="border-bottom: 1px solid #333;"><td style="padding: 10px; font-weight: bold; color: #a0aec0;">Site Area</td><td style="padding: 10px; color: #fff;">5-0-0 Rai (2,000 Sq.wah or 8,000 sq.m.)</td></tr>
   <tr style="border-bottom: 1px solid #333;"><td style="padding: 10px; font-weight: bold; color: #a0aec0;">Total GFA</td><td style="padding: 10px; color: #fff;">Approx. 19,302 sq.m.</td></tr>
@@ -121,4 +121,3 @@ description: "Curated Portfolio of Ultra-Luxury Hospitality"
 <!-- 📑 BUTTONS FOR HOTEL 2 -->
 <div style="display: flex; flex-wrap: wrap; gap: 15px; margin-top: 10px; margin-bottom: 40px;">
   <a href="https://github.io" target="_blank" rel="noopener noreferrer" 
-
