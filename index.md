@@ -74,7 +74,7 @@ A rare and high-value investment opportunity to acquire two fully operational lu
 ![Hotel 1 Exterior][hotel1-main]
 
 
----
+
 
 ## 📑 Due Diligence & Investment Documents Garden Cliff Resort and Spa Pattaya
 For qualified investors, please review the comprehensive analysis and project documentations below:
@@ -142,7 +142,7 @@ For qualified investors, please review the comprehensive analysis and project do
 ![Hotel 2 Exterior][hotel2-main]
 
 
----
+
 
 ## 📑 Due Diligence & Investment Documents Mountain Beach Resort and Spa Pattaya
 For qualified investors, please review the comprehensive analysis and project documentations below:
