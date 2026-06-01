@@ -60,7 +60,19 @@ description: "Curated Portfolio of Ultra-Luxury Hospitality"
   <p style="font-size: 24px; color: #d4af37; font-weight: bold; margin: 5px 0 0 0;">THB 1,700,000,000 (1,700 MB)</p>
 </div>
 
-<img src="garden-cliff-info.jpeg" alt="Garden Cliff Resort & Spa Pattaya" style="width: 100%; border-radius: 4px; margin-bottom: 40px;">
+<img src="garden-cliff-info.jpeg" alt="Garden Cliff Resort & Spa Pattaya" style="width: 100%; border-radius: 4px; margin-bottom: 20px;">
+
+<!-- 📑 BUTTONS FOR HOTEL 1 -->
+<div style="display: flex; flex-wrap: wrap; gap: 15px; margin-top: 10px; margin-bottom: 40px;">
+  <a href="https://github.io" target="_blank" rel="noopener noreferrer" 
+     style="display: inline-flex; align-items: center; justify-content: center; padding: 12px 24px; font-family: 'Georgia', serif; font-size: 14px; font-weight: bold; color: #111e2e; background-color: #d4af37; border: 1px solid #d4af37; border-radius: 4px; text-decoration: none; letter-spacing: 1px; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.2); transition: all 0.3s ease;">
+    📊 ACCESS GARDEN CLIFF FINANCIAL REPORT &rarr;
+  </a>
+  <a href="hotel1-brochure.pdf" target="_blank" rel="noopener noreferrer" 
+     style="display: inline-flex; align-items: center; justify-content: center; padding: 12px 24px; font-family: 'Georgia', serif; font-size: 14px; font-weight: bold; color: #ffffff; background-color: transparent; border: 1px solid #a0aec0; border-radius: 4px; text-decoration: none; letter-spacing: 1px; transition: all 0.3s ease;">
+    📥 DOWNLOAD PLOT 1 PITCH DECK (PDF)
+  </a>
+</div>
 
 <hr style="border: 0; height: 1px; background: #333; margin: 40px 0;">
 
@@ -79,8 +91,8 @@ description: "Curated Portfolio of Ultra-Luxury Hospitality"
 <table style="width: 100%; border-collapse: collapse; margin-bottom: 25px;">
   <tr style="border-bottom: 1px solid #333;"><td style="padding: 10px; font-weight: bold; width: 30%; color: #a0aec0;">Property Name</td><td style="padding: 10px; color: #fff;">Mountain Beach Resort Pattaya</td></tr>
   <tr style="border-bottom: 1px solid #333;"><td style="padding: 10px; font-weight: bold; width: 30%; color: #a0aec0;">Current Operator</td><td style="padding: 10px; color: #fff;">Destination Hospitality Management Co., Ltd.</td></tr>
-  <tr style="border-bottom: 1px solid #333;"><td style="padding: 10px; font-weight: bold; color: #a0aec0;">No. of Keys</td><td style="padding: 10px; color: #fff;">318 Generously Sized Keys & Suites (High Volume Inventory)</td></tr>
-  <tr style="border-bottom: 1px solid #333;"><td style="padding: 10px; font-weight: bold; color: #a0aec0;">No. of Storeys</td><td style="padding: 10px; color: #fff;">8 Storeys (Classic Structural Layout)</td></tr>
+  <tr style="border-bottom: 1px solid #333;"><td style="padding: 10px; font-weight: bold; width: 30%; color: #a0aec0;">No. of Keys</td><td style="padding: 10px; color: #fff;">318 Generously Sized Keys & Suites (High Volume Inventory)</td></tr>
+  <tr style="border-bottom: 1px solid #333;"><td style="padding: 10px; font-weight: bold; width: 30%; color: #a0aec0;">No. of Storeys</td><td style="padding: 10px; color: #fff;">8 Storeys (Classic Structural Layout)</td></tr>
   <tr style="border-bottom: 1px solid #333;"><td style="padding: 10px; font-weight: bold; color: #a0aec0;">Built / Opening</td><td style="padding: 10px; color: #fff;">Opened 1989 (Proven track record of long-term stability)</td></tr>
   <tr style="border-bottom: 1px solid #333;"><td style="padding: 10px; font-weight: bold; color: #a0aec0;">Site Area</td><td style="padding: 10px; color: #fff;">5-0-0 Rai (2,000 Sq.wah or 8,000 sq.m.)</td></tr>
   <tr style="border-bottom: 1px solid #333;"><td style="padding: 10px; font-weight: bold; color: #a0aec0;">Total GFA</td><td style="padding: 10px; color: #fff;">Approx. 19,302 sq.m.</td></tr>
@@ -104,19 +116,9 @@ description: "Curated Portfolio of Ultra-Luxury Hospitality"
   <p style="font-size: 24px; color: #d4af37; font-weight: bold; margin: 5px 0 0 0;">THB 900,000,000 (900 MB)</p>
 </div>
 
-<img src="mb-info.jpeg" alt="Mountain Beach Resort Pattaya" style="width: 100%; border-radius: 4px; margin-bottom: 40px;">
+<img src="mb-info.jpeg" alt="Mountain Beach Resort Pattaya" style="width: 100%; border-radius: 4px; margin-bottom: 20px;">
 
-<hr style="border: 0; height: 1px; background: #333; margin: 40px 0;">
-
-<!-- 📑 CALL TO ACTION BUTTONS SECTION (ปุ่มกดสไตล์ลักชัวรีระดับโลก) -->
-<h2 style="color: #fff; font-family: 'Georgia', serif;">📑 Due Diligence & Investment Documents</h2>
-<p>For qualified investors, please review the comprehensive analysis and project documentations below:</p>
-
-<div style="display: flex; flex-wrap: wrap; gap: 15px; margin-top: 25px; margin-bottom: 25px;">
-  <!-- ปุ่มสีทองพรีเมียม (ลิงก์เปิดหน้าใหม่ข้ามโปรเจกต์ของคุณ Joe) -->
+<!-- 📑 BUTTONS FOR HOTEL 2 -->
+<div style="display: flex; flex-wrap: wrap; gap: 15px; margin-top: 10px; margin-bottom: 40px;">
   <a href="https://github.io" target="_blank" rel="noopener noreferrer" 
-     style="display: inline-flex; align-items: center; justify-content: center; padding: 14px 28px; font-family: 'Georgia', serif; font-size: 15px; font-weight: bold; color: #111e2e; background-color: #d4af37; border: 1px solid #d4af37; border-radius: 4px; text-decoration: none; letter-spacing: 1px; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.2); transition: all 0.3s ease;">
-    📊 ACCESS CONFIDENTIAL FINANCIAL REPORT &rarr;
-  </a>
-  <!-- ปุ่มขอบเงินเรียบหรู (ลิงก์เปิดหน้าใหม่สำหรับดาวน์โหลด PDF) -->
-  <a href="hotel-brochure.pdf" target="_blank" rel="noopener noreferrer" 
+
