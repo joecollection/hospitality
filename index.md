@@ -74,11 +74,31 @@ A rare and high-value investment opportunity to acquire two fully operational lu
 ![Hotel 1 Exterior][hotel1-main]
 
 
+---
+
 ## 📑 Due Diligence & Investment Documents
 For qualified investors, please review the comprehensive analysis and project documentations below:
 
-*   **Financial & Market Report:** [🔗 Access Analysis Repo / File](https://joecollection.github.io/gardencliff-pattaya/)
-*   **Property Infographic (PDF):** [📥 Download Brochure](garden-cliff-analysis.pdf)
+<div style="display: flex; flex-wrap: wrap; gap: 15px; margin-top: 25px; margin-bottom: 25px;">
+
+  <!-- ปุ่มสีทอง ลิงก์ตรงไปยังเว็บรายงานการเงินอีกโปรเจกต์ของคุณ -->
+  <a href="https://joecollection.github.io/gardencliff-pattaya/" target="_blank" rel="noopener noreferrer" 
+     style="display: inline-flex; align-items: center; justify-content: center; padding: 14px 28px; font-family: 'Georgia', serif; font-size: 15px; font-weight: bold; color: #111e2e; background-color: #d4af37; border: 1px solid #d4af37; border-radius: 4px; text-decoration: none; letter-spacing: 1px; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.2); transition: all 0.3s ease;">
+    📊 ACCESS CONFIDENTIAL FINANCIAL REPORT &rarr;
+  </a>
+
+  <!-- ปุ่มขอบเงิน สำหรับดาวน์โหลดโบรชัวร์ PDF -->
+  <a href="garden-cliff-analysis.pdf" target="_blank" rel="noopener noreferrer" 
+     style="display: inline-flex; align-items: center; justify-content: center; padding: 14px 28px; font-family: 'Georgia', serif; font-size: 15px; font-weight: bold; color: #ffffff; background-color: transparent; border: 1px solid #a0aec0; border-radius: 4px; text-decoration: none; letter-spacing: 1px; transition: all 0.3s ease;">
+    📥 DOWNLOAD INVESTMENT PITCH DECK (PDF)
+  </a>
+
+</div>
+
+<p style="font-size: 13px; color: #a0aec0; font-style: italic; margin-top: 10px;">
+  *Note: Financial due diligence reports and transaction structures are protected under standard Non-Disclosure Agreements (NDA).
+</p>
+
 
 
 ---
