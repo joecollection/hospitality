@@ -95,7 +95,7 @@ layout: default
 *Exterior view of Mountain Beach Resort Pattaya*
 
 👉 **[📊 CLICK HERE TO ACCESS CONFIDENTIAL FINANCIAL REPORT](https://joecollection.github.io/mountain-beach/)**  
-👉 **[📥 CLICK HERE TO DOWNLOAD HOTEL PITCH DECK (PDF)](hotel2-brochure.pdf)**
+👉 **[📥 CLICK HERE TO DOWNLOAD HOTEL PITCH DECK (PDF)](mb-resort.pdf)**
 
 ---
 
