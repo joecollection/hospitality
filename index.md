@@ -58,7 +58,7 @@ layout: default
 *Exterior view of Garden Cliff Resort & Spa Pattaya*
 
 👉 **[📊 CLICK HERE TO ACCESS CONFIDENTIAL FINANCIAL REPORT](https://joecollection.github.io/gardencliff-pattaya/)**  
-👉 **[📥 CLICK HERE TO DOWNLOAD HOTEL 1 PITCH DECK (PDF)](garden-cliff-analysis.pdf)**
+👉 **[📥 CLICK HERE TO DOWNLOAD HOTEL PITCH DECK (PDF)](garden-cliff-analysis.pdf)**
 
 ---
 
@@ -95,7 +95,7 @@ layout: default
 *Exterior view of Mountain Beach Resort Pattaya*
 
 👉 **[📊 CLICK HERE TO ACCESS CONFIDENTIAL FINANCIAL REPORT](https://joecollection.github.io/mountain-beach/)**  
-👉 **[📥 CLICK HERE TO DOWNLOAD HOTEL 2 PITCH DECK (PDF)](hotel2-brochure.pdf)**
+👉 **[📥 CLICK HERE TO DOWNLOAD HOTEL PITCH DECK (PDF)](hotel2-brochure.pdf)**
 
 ---
 
@@ -104,6 +104,6 @@ layout: default
 ---
 
 ## 📞 Contact Information
-*   **Monthon M.**
+*   **Monthon Mahakijdumrongnukul**
 *   **Mobile:** +6680-657-8387
 *   **Email:** joecollection.m@gmail.com
