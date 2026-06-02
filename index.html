@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Pattaya Hotel Portfolio — Joe Collection</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600;700&family=EB+Garamond:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+  <style>
+    /* ================================================================
+       JOE COLLECTION v3 — SOVEREIGN BLACK GOLD
+       Pattaya Hospitality Portfolio — index.html
+    ================================================================ */
+    :root {
+      --obsidian:      #0d0f14;
+      --obsidian-mid:  #13161e;
+      --obsidian-hi:   #1c2030;
+      --smoke:         #252b3b;
+      --gold-hi:       #e8c97a;
+      --gold-mid:      #c9a84c;
+      --gold-low:      #8a6a2e;
+      --gold-trace:    rgba(201,168,76,0.10);
+      --gold-border:   rgba(201,168,76,0.25);
+      --ivory:         #f2ede6;
+      --ivory-dim:     rgba(242,237,230,0.65);
+      --ivory-ghost:   rgba(242,237,230,0.18);
+      --white:         #ffffff;
+      --red-hi:        #c0392b;
+      --red-mid:       #851c1c;
+      --red-low:       #5c1414;
+      --emerald-hi:    #10b981;
+      --font-display:  'Cormorant Garamond', Georgia, serif;
+      --font-body:     'Montserrat', sans-serif;
+      --font-accent:   'EB Garamond', Georgia, serif;
+      --ease-luxury:   cubic-bezier(0.16, 1, 0.3, 1);
+      --px:            clamp(18px, 5vw, 48px);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      background-color: var(--obsidian);
+      color: var(--ivory);
+      font-family: var(--font-body);
+      font-size: 15px;
+      line-height: 1.75;
+      letter-spacing: 0.02em;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+      width: 100%;
+      max-width: 100vw;
+    }
+
+    /* grain */
+    body::before {
+      content: '';
+      position: fixed; inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+      pointer-events: none; z-index: 9999; opacity: 0.4;
+    }
+
+    /* ── TICKER ──────────────────────────────────────────────── */
+    .ticker-rail {
+      background: var(--obsidian-mid);
+      border-top: 1px solid var(--gold-border);
+      border-bottom: 1px solid var(--gold-border);
+      padding: 12px 0;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
+    .ticker-rail::before { content:''; position:absolute; top:0; bottom:0; left:0; width:48px; background:linear-gradient(to right,var(--obsidian-mid),transparent); z-index:2; }
+    .ticker-rail::after  { content:''; position:absolute; top:0; bottom:0; right:0; width:48px; background:linear-gradient(to left,var(--obsidian-mid),transparent); z-index:2; }
+    .ticker-track { display:flex; width:max-content; animation:ticker-scroll 32s linear infinite; }
+    .ticker-item  { font-family:var(--font-body); font-size:9.5px; font-weight:600; letter-spacing:3px; text-transform:uppercase; white-space:nowrap; color:var(--emerald-hi); padding:0 48px; }
+    .ticker-dot   { color:var(--gold-mid); margin:0 8px; }
+    @keyframes ticker-scroll { 0%{transform:translate3d(0,0,0)} 100%{transform:translate3d(-50%,0,0)} }
+
+    /* ── PAGE ────────────────────────────────────────────────── */
+    .page-wrapper {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 0 var(--px) clamp(60px, 10vw, 100px);
+    }
+
+    /* ── HERO CARD ───────────────────────────────────────────── */
+    .hero {
+      position: relative;
+      text-align: center;
+      padding: clamp(40px,8vw,72px) clamp(20px,5vw,56px) clamp(36px,7vw,60px);
+      margin: clamp(24px,5vw,44px) 0 0;
+      background: linear-gradient(160deg, #1a1f2e 0%, #0f1119 50%, #13161f 100%);
+      border-radius: 6px;
+      border-top:   1px solid rgba(255,255,255,0.09);
+      border-left:  1px solid rgba(255,255,255,0.06);
+      border-right: 1px solid rgba(0,0,0,0.5);
+      border-bottom:1px solid rgba(0,0,0,0.6);
+      box-shadow:
+        0 24px 64px rgba(0,0,0,0.75),
+        0 6px 18px rgba(0,0,0,0.6),
+        inset 0 1px 0 rgba(255,255,255,0.10),
+        inset 1px 0 0 rgba(255,255,255,0.05),
+        inset 0 -3px 8px rgba(0,0,0,0.45),
+        0 0 80px rgba(201,168,76,0.06);
+    }
+    .hero::before {
+      content:''; position:absolute; top:14px; left:14px; width:28px; height:28px;
+      border-top:1px solid var(--gold-mid); border-left:1px solid var(--gold-mid);
+      opacity:0.6; border-radius:1px 0 0 0; pointer-events:none;
+    }
+    .hero::after {
+      content:''; position:absolute; bottom:14px; right:14px; width:28px; height:28px;
+      border-bottom:1px solid var(--gold-mid); border-right:1px solid var(--gold-mid);
+      opacity:0.6; border-radius:0 0 1px 0; pointer-events:none;
+    }
+
+    .hero-top {
+      padding-bottom: clamp(20px,4vw,28px);
+      opacity:0; animation: fade-up 1s var(--ease-luxury) 0.2s forwards;
+    }
+    .hero-eyebrow {
+      font-size: clamp(7.5px,1.8vw,9px); font-weight:700;
+      letter-spacing: clamp(3.5px,1.2vw,5.5px); text-transform:uppercase;
+      color: var(--gold-mid); margin-bottom:18px;
+    }
+    .hero-wordmark {
+      font-family: var(--font-display);
+      font-size: clamp(44px,10vw,80px); font-weight:300;
+      letter-spacing: clamp(12px,3.5vw,22px); text-transform:uppercase;
+      color: var(--white); line-height:1; word-break:break-word;
+      text-shadow: 0 1px 0 rgba(255,255,255,0.08), 0 -1px 0 rgba(0,0,0,0.6), 0 2px 14px rgba(0,0,0,0.5);
+    }
+
+    .hero-centre-rule {
+      position:relative; display:flex; align-items:center; justify-content:center;
+      margin: clamp(18px,3.5vw,26px) 0; height:1px;
+      opacity:0; animation: fade-up 0.8s var(--ease-luxury) 0.5s forwards;
+    }
+    .hero-centre-rule::before {
+      content:''; position:absolute; left:0; right:0; height:1px;
+      background: linear-gradient(to right, transparent 0%, rgba(201,168,76,0.15) 10%, rgba(201,168,76,0.55) 35%, var(--gold-mid) 50%, rgba(201,168,76,0.55) 65%, rgba(201,168,76,0.15) 90%, transparent 100%);
+    }
+    .hero-rule-jewel {
+      position:relative; z-index:1; display:flex; align-items:center; gap:7px;
+      background:linear-gradient(160deg,#1a1f2e 0%,#0f1119 100%); padding:0 16px;
+    }
+    .hero-rule-diamond    { width:6px; height:6px; background:var(--gold-mid); transform:rotate(45deg); box-shadow:0 0 7px rgba(201,168,76,0.6); flex-shrink:0; }
+    .hero-rule-diamond-sm { width:3px; height:3px; background:rgba(201,168,76,0.45); transform:rotate(45deg); flex-shrink:0; }
+
+    .hero-wordmark-collection {
+      display:block; font-family:var(--font-display);
+      font-size: clamp(30px,7vw,56px); font-weight:600; font-style:italic;
+      letter-spacing: clamp(10px,3vw,20px); color:var(--gold-hi); line-height:1;
+      word-break:break-word;
+      opacity:0; animation: fade-up 0.9s var(--ease-luxury) 0.65s forwards;
+      text-shadow: 0 1px 0 rgba(255,220,100,0.25), 0 -1px 0 rgba(0,0,0,0.5), 0 2px 18px rgba(201,168,76,0.22);
+      margin-bottom: clamp(20px,4vw,28px);
+    }
+
+    .hero-bottom {
+      padding-top: clamp(20px,4vw,30px);
+      opacity:0; animation: fade-up 0.9s var(--ease-luxury) 0.85s forwards;
+    }
+    .hero-subtitle {
+      font-family: var(--font-accent); font-size:clamp(13px,3.2vw,16px); font-style:italic;
+      color: var(--ivory-dim); letter-spacing:0.4px; padding:0 4px;
+      margin-bottom: clamp(26px,5vw,36px); line-height:1.7;
+    }
+    .hero-cta-row { display:flex; flex-wrap:wrap; gap:14px; justify-content:center; }
+
+    /* ── SHARED BUTTON BASE ──────────────────────────────────── */
+    .btn {
+      display: inline-flex; align-items:center; justify-content:center; gap:10px;
+      padding: clamp(14px,3.2vw,18px) clamp(26px,5.5vw,38px);
+      min-width: clamp(180px,38vw,220px);
+      font-family: var(--font-body); font-size:clamp(9.5px,2vw,11px);
+      font-weight:700; letter-spacing:clamp(2px,0.8vw,3px); text-transform:uppercase;
+      text-decoration:none; border-radius:3px; cursor:pointer; white-space:nowrap;
+      transition: transform 0.4s var(--ease-luxury), box-shadow 0.4s var(--ease-luxury), filter 0.3s;
+    }
+    .btn:hover  { transform:translateY(-4px); filter:brightness(1.1); }
+    .btn:active { transform:translateY(-1px); }
+    .btn svg    { width:13px; height:13px; fill:currentColor; flex-shrink:0; }
+
+    /* Burgundy Red */
+    .btn-red {
+      color:#ffd8d8;
+      background: linear-gradient(140deg,#851c1c 0%,#5c1414 55%,#3d0a0a 100%);
+      border-top:   1px solid rgba(255,160,160,0.2);
+      border-left:  1px solid rgba(255,160,160,0.12);
+      border-right: 1px solid rgba(0,0,0,0.55);
+      border-bottom:1px solid rgba(0,0,0,0.65);
+      box-shadow: 0 6px 22px rgba(107,21,21,0.55), 0 2px 6px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,200,200,0.2), inset 0 -3px 6px rgba(0,0,0,0.35);
+    }
+    .btn-red:hover { box-shadow: 0 14px 38px rgba(107,21,21,0.70), 0 4px 10px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,200,200,0.25); }
+
+    /* Obsidian Gold */
+    .btn-dark {
+      color: var(--gold-hi);
+      background: linear-gradient(140deg,#21273a 0%,#141824 100%);
+      border-top:   1px solid rgba(255,255,255,0.10);
+      border-left:  1px solid rgba(255,255,255,0.06);
+      border-right: 1px solid rgba(0,0,0,0.5);
+      border-bottom:1px solid rgba(0,0,0,0.55);
+      box-shadow: 0 6px 22px rgba(0,0,0,0.55), 0 2px 6px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.08), inset 0 -3px 6px rgba(0,0,0,0.35), 0 0 0 1px var(--gold-border);
+    }
+    .btn-dark:hover { box-shadow: 0 14px 38px rgba(0,0,0,0.65), inset 0 1px 0 rgba(255,255,255,0.1), 0 0 0 1px var(--gold-mid); }
+
+    /* ── SECTION DIVIDER ─────────────────────────────────────── */
+    .section-divider {
+      display:flex; align-items:center; gap:16px;
+      margin: clamp(48px,8vw,72px) 0 clamp(28px,5vw,44px);
+      overflow:hidden;
+    }
+    .sdl { flex:1; min-width:20px; height:1px; }
+    .sdl-l { background:linear-gradient(to right, var(--gold-border), transparent); }
+    .sdl-r { background:linear-gradient(to left,  var(--gold-border), transparent); }
+    .sh {
+      font-size:clamp(7.5px,1.8vw,9px); font-weight:700;
+      letter-spacing:clamp(2px,1vw,4.5px); text-transform:uppercase;
+      color:var(--gold-mid); white-space:nowrap; flex-shrink:0;
+    }
+
+    .section-title {
+      font-family: var(--font-display); font-size:clamp(24px,5.5vw,34px);
+      font-weight:400; color:var(--white); letter-spacing:0.5px; margin-bottom:8px;
+    }
+    .section-subtitle {
+      font-family: var(--font-accent); font-size:clamp(13px,3vw,15px); font-style:italic;
+      color:var(--ivory-dim); margin-bottom: clamp(28px,5vw,40px); line-height:1.7;
+    }
+
+    /* ── PROPERTY CARD ───────────────────────────────────────── */
+    .property-card {
+      background: var(--obsidian-mid);
+      border: 1px solid var(--gold-border);
+      border-top: 2px solid var(--gold-mid);
+      border-radius: 5px;
+      overflow: hidden;
+      margin-bottom: clamp(40px,8vw,64px);
+      box-shadow: 0 12px 48px rgba(0,0,0,0.55);
+    }
+
+    /* Property image */
+    .prop-image {
+      width:100%; aspect-ratio:16/7; object-fit:cover;
+      display:block; filter:brightness(0.88) saturate(0.9);
+      transition: filter 0.5s, transform 0.5s;
+    }
+    .property-card:hover .prop-image { filter:brightness(0.95) saturate(1); }
+    .prop-image-placeholder {
+      width:100%; aspect-ratio:16/7;
+      background: linear-gradient(135deg,#1a1f2e,#0f1119);
+      display:flex; align-items:center; justify-content:center;
+      color:var(--gold-border); font-size:clamp(11px,2.5vw,13px);
+      letter-spacing:2px; text-transform:uppercase; font-weight:600;
+    }
+
+    .prop-body { padding: clamp(24px,5vw,44px); }
+
+    /* Property header */
+    .prop-number {
+      font-size:clamp(7.5px,1.8vw,9px); font-weight:700; letter-spacing:4px;
+      text-transform:uppercase; color:var(--gold-mid); margin-bottom:10px;
+    }
+    .prop-name {
+      font-family: var(--font-display);
+      font-size: clamp(24px,5.5vw,40px); font-weight:400; color:var(--white);
+      letter-spacing:0.5px; line-height:1.1; margin-bottom:10px;
+    }
+    .prop-concept {
+      font-family: var(--font-accent); font-size:clamp(13px,3vw,15px); font-style:italic;
+      color:var(--ivory-dim); line-height:1.75; margin-bottom: clamp(24px,4vw,36px);
+      padding-bottom: clamp(20px,3.5vw,28px);
+      border-bottom: 1px solid var(--gold-trace);
+    }
+
+    /* Badge row */
+    .prop-badges {
+      display:flex; flex-wrap:wrap; gap:10px; margin-bottom: clamp(24px,4vw,34px);
+    }
+    .badge {
+      display:inline-flex; align-items:center; gap:7px;
+      padding:7px 14px;
+      font-size:clamp(9px,2vw,10.5px); font-weight:600; letter-spacing:2px;
+      text-transform:uppercase; border-radius:2px;
+    }
+    .badge-gold  { background:rgba(201,168,76,0.12); border:1px solid var(--gold-border); color:var(--gold-hi); }
+    .badge-red   { background:rgba(133,28,28,0.18);  border:1px solid rgba(133,28,28,0.4); color:#ffb5b5; }
+    .badge-smoke { background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); color:var(--ivory-dim); }
+
+    /* Two-column grid for facts & facilities */
+    .prop-grid-2 {
+      display:grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%,280px),1fr));
+      gap: clamp(16px,3vw,24px);
+      margin-bottom: clamp(24px,4vw,36px);
+    }
+
+    .info-block {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius:4px;
+      padding: clamp(18px,3.5vw,26px);
+    }
+    .info-block-title {
+      font-size:clamp(8px,1.8vw,9px); font-weight:700; letter-spacing:3px;
+      text-transform:uppercase; color:var(--gold-mid); margin-bottom:16px;
+    }
+
+    /* ── KEY FACTS TABLE ─────────────────────────────────────── */
+    .table-scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; }
+    table {
+      width:100%; border-collapse:collapse; min-width:420px;
+      font-size:clamp(12px,2.8vw,13.5px);
+    }
+    thead tr { border-bottom:1px solid var(--gold-border); }
+    thead th {
+      font-size:clamp(7.5px,1.8vw,9px); font-weight:700; letter-spacing:3px;
+      text-transform:uppercase; color:var(--gold-mid); padding:0 12px 12px 0;
+      text-align:left; white-space:nowrap;
+    }
+    tbody tr { border-bottom:1px solid rgba(255,255,255,0.04); }
+    tbody tr:last-child { border-bottom:none; }
+    tbody td {
+      padding:11px 12px 11px 0; color:var(--ivory-dim); vertical-align:top;
+      line-height:1.5;
+    }
+    tbody td:first-child { color:var(--ivory); font-weight:500; white-space:nowrap; padding-right:20px; }
+
+    /* ── FACILITY LIST ───────────────────────────────────────── */
+    .facility-list { list-style:none; display:flex; flex-direction:column; gap:9px; }
+    .facility-list li {
+      display:flex; align-items:flex-start; gap:10px;
+      font-size:clamp(12px,2.8vw,13.5px); color:var(--ivory-dim); line-height:1.55;
+    }
+    .facility-list li::before { content:'◆'; color:var(--gold-low); font-size:7px; margin-top:5px; flex-shrink:0; }
+    .facility-list li strong { color:var(--gold-hi); font-weight:600; }
+
+    /* ── FINANCIAL METRICS ───────────────────────────────────── */
+    .financial-row {
+      display:grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%,140px),1fr));
+      gap:12px; margin-bottom: clamp(24px,4vw,36px);
+    }
+    .metric-card {
+      background: linear-gradient(135deg, rgba(201,168,76,0.08) 0%, rgba(201,168,76,0.03) 100%);
+      border:1px solid var(--gold-border); border-top:2px solid var(--gold-mid);
+      border-radius:4px; padding: clamp(16px,3vw,22px) clamp(14px,3vw,20px);
+      text-align:center;
+    }
+    .metric-label {
+      font-size:clamp(7.5px,1.8vw,9px); font-weight:700; letter-spacing:2.5px;
+      text-transform:uppercase; color:var(--gold-mid); margin-bottom:10px;
+    }
+    .metric-value {
+      font-family: var(--font-display); font-size:clamp(22px,4.5vw,30px);
+      font-weight:500; color:var(--white); line-height:1; margin-bottom:4px;
+    }
+    .metric-unit { font-size:clamp(10px,2.2vw,12px); color:var(--ivory-dim); letter-spacing:1px; }
+
+    /* ── ASKING PRICE BOX ────────────────────────────────────── */
+    .price-box {
+      background: linear-gradient(140deg, #1a0d0d 0%, #110808 100%);
+      border: 1px solid rgba(133,28,28,0.5);
+      border-top: 2px solid #851c1c;
+      border-radius:4px;
+      padding: clamp(20px,4vw,32px) clamp(20px,4vw,32px);
+      margin-bottom: clamp(24px,4vw,36px);
+      text-align:center;
+      box-shadow: 0 8px 32px rgba(107,21,21,0.3), inset 0 1px 0 rgba(255,150,150,0.08);
+    }
+    .price-label {
+      font-size:clamp(8px,1.8vw,9.5px); font-weight:700; letter-spacing:4px;
+      text-transform:uppercase; color:#ff9a9a; margin-bottom:12px;
+    }
+    .price-value {
+      font-family: var(--font-display);
+      font-size: clamp(28px,6vw,48px); font-weight:500; color:var(--white);
+      line-height:1.1; margin-bottom:6px;
+      text-shadow: 0 2px 20px rgba(200,50,50,0.2);
+    }
+    .price-sub { font-size:clamp(11px,2.5vw,13px); color:rgba(255,200,200,0.5); letter-spacing:1px; }
+
+    /* ── PROPERTY CTA ROW ────────────────────────────────────── */
+    .prop-cta { display:flex; flex-wrap:wrap; gap:14px; }
+    .prop-cta .btn { min-width: clamp(160px,42vw,200px); }
+
+    /* ── BACK LINK ───────────────────────────────────────────── */
+    .back-link {
+      display:inline-flex; align-items:center; gap:8px;
+      font-size:clamp(9px,2vw,10.5px); font-weight:600; letter-spacing:2.5px;
+      text-transform:uppercase; color:var(--gold-mid); text-decoration:none;
+      margin-bottom: clamp(16px,3vw,24px); opacity:0.75; transition:opacity 0.3s;
+    }
+    .back-link:hover { opacity:1; }
+
+    /* ── FOOTER ──────────────────────────────────────────────── */
+    .site-footer {
+      margin-top: clamp(60px,10vw,100px);
+      padding-top: clamp(24px,4vw,36px);
+      border-top:1px solid var(--gold-trace);
+      display:flex; flex-direction:column; align-items:center; gap:10px; text-align:center;
+    }
+    .footer-mark {
+      font-family:var(--font-display); font-size:clamp(15px,3.5vw,18px); font-weight:300;
+      letter-spacing:clamp(4px,1.5vw,6px); text-transform:uppercase; color:var(--gold-mid);
+    }
+    .footer-copy {
+      font-size:clamp(9px,2vw,10.5px); letter-spacing:1.2px;
+      color:var(--ivory-ghost); text-transform:uppercase; word-break:break-word;
+    }
+    @media(min-width:600px){ .site-footer{flex-direction:row;justify-content:space-between;text-align:left;} }
+
+    /* ── SCROLL REVEAL ───────────────────────────────────────── */
+    .reveal { opacity:0; transform:translateY(20px); transition:opacity 0.75s var(--ease-luxury), transform 0.75s var(--ease-luxury); }
+    .reveal.visible { opacity:1; transform:translateY(0); }
+
+    @keyframes fade-up {
+      from { opacity:0; transform:translateY(18px); }
+      to   { opacity:1; transform:translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TICKER -->
+  <div class="ticker-rail" aria-hidden="true">
+    <div class="ticker-track">
+      <span class="ticker-item">Pattaya Hospitality Portfolio<span class="ticker-dot">◆</span>Freehold Title Deeds<span class="ticker-dot">◆</span>Off-Market Acquisitions<span class="ticker-dot">◆</span>NDA-Protected Transactions<span class="ticker-dot">◆</span>Institutional Grade Assets<span class="ticker-dot">◆</span></span>
+      <span class="ticker-item">Pattaya Hospitality Portfolio<span class="ticker-dot">◆</span>Freehold Title Deeds<span class="ticker-dot">◆</span>Off-Market Acquisitions<span class="ticker-dot">◆</span>NDA-Protected Transactions<span class="ticker-dot">◆</span>Institutional Grade Assets<span class="ticker-dot">◆</span></span>
+    </div>
+  </div>
+
+  <div class="page-wrapper">
+
+    <!-- HERO -->
+    <header class="hero">
+      <div class="hero-top">
+        <p class="hero-eyebrow">Hospitality Portfolio — Pattaya, Thailand</p>
+        <h1 class="hero-wordmark">Joe</h1>
+      </div>
+      <div class="hero-centre-rule">
+        <div class="hero-rule-jewel">
+          <div class="hero-rule-diamond-sm"></div>
+          <div class="hero-rule-diamond"></div>
+          <div class="hero-rule-diamond-sm"></div>
+        </div>
+      </div>
+      <span class="hero-wordmark-collection">Collection</span>
+      <div class="hero-bottom">
+        <p class="hero-subtitle">Curated Portfolio of Ultra-Luxury Hospitality &amp; Premium Real Estate — Pattaya</p>
+        <div class="hero-cta-row">
+          <a href="#garden-cliff" class="btn btn-red">
+            <svg viewBox="0 0 24 24"><path d="M3 9.5L12 3l9 6.5V20a1 1 0 01-1 1H4a1 1 0 01-1-1V9.5z" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M9 21V12h6v9" stroke="currentColor" stroke-width="1.5" fill="none"/></svg>
+            Garden Cliff Resort
+          </a>
+          <a href="#mountain-beach" class="btn btn-dark">
+            <svg viewBox="0 0 24 24"><path d="M3 9.5L12 3l9 6.5V20a1 1 0 01-1 1H4a1 1 0 01-1-1V9.5z" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M9 21V12h6v9" stroke="currentColor" stroke-width="1.5" fill="none"/></svg>
+            Mountain Beach Resort
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- ══════════════════════════════════════════════════════
+         PROPERTY 1 — GARDEN CLIFF RESORT & SPA
+    ══════════════════════════════════════════════════════ -->
+    <section id="garden-cliff" class="reveal">
+      <div class="section-divider">
+        <div class="sdl sdl-l"></div>
+        <span class="sh">Property 01</span>
+        <div class="sdl sdl-r"></div>
+      </div>
+
+      <div class="property-card">
+
+        <!-- Image — replace src with actual image path -->
+        <img
+          src="garden-cliff-info.jpeg"
+          alt="Garden Cliff Resort & Spa — Naklua, Pattaya"
+          class="prop-image"
+          loading="lazy"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+        >
+        <div class="prop-image-placeholder" style="display:none;">
+          Garden Cliff Resort &amp; Spa — Image Loading
+        </div>
+
+        <div class="prop-body">
+
+          <p class="prop-number">Property 01 · Naklua, Pattaya</p>
+          <h2 class="prop-name">Garden Cliff Resort &amp; Spa</h2>
+
+          <div class="prop-badges">
+            <span class="badge badge-gold">⭐ 5-Star Concept</span>
+            <span class="badge badge-red">🏖️ Beachfront</span>
+            <span class="badge badge-smoke">📜 Freehold · Chanote</span>
+            <span class="badge badge-smoke">249 Keys</span>
+          </div>
+
+          <p class="prop-concept">5-Star Luxury Beachfront Resort with Low-Density Architecture and Private Beach Access in Prime Naklua, Pattaya. Surrounded by ultra-luxury brands including <em>Pullman Pattaya Hotel</em>, <em>Centara Grand Mirage</em>, and <em>Cape Dara Resort</em>.</p>
+
+          <div class="prop-grid-2">
+
+            <!-- Key Facts Table -->
+            <div class="info-block">
+              <p class="info-block-title">📊 Key Facts</p>
+              <div class="table-scroll">
+                <table>
+                  <thead><tr><th>Field</th><th>Details</th></tr></thead>
+                  <tbody>
+                    <tr><td>No. of Keys</td><td>249 Premium Keys &amp; Suites</td></tr>
+                    <tr><td>Storeys</td><td>8 Storeys — Elegant Low-Rise</td></tr>
+                    <tr><td>Site Area</td><td>11-1-57 Rai (18,228 sq.m.)</td></tr>
+                    <tr><td>Total GFA</td><td>Approx. 22,000 sq.m.</td></tr>
+                    <tr><td>FAR</td><td>1.2 — Low FAR (Upside Potential)</td></tr>
+                    <tr><td>BOH : FOH</td><td>45 : 55 (Highly Optimised)</td></tr>
+                    <tr><td>Tenure</td><td>Freehold — Chanote Title</td></tr>
+                    <tr><td>Address</td><td>220/21 Moo 5, Soi 16 Naklua, Pattaya, Chonburi</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <!-- Facilities -->
+            <div class="info-block">
+              <p class="info-block-title">🍽️ Facilities &amp; Outlets</p>
+              <ul class="facility-list">
+                <li><strong>Blue Dragon Cafe &amp; Beach Club</strong> — Signature beachfront social destination &amp; check-in hotspot</li>
+                <li>Meeting &amp; Event Facilities</li>
+                <li>Swimming Pools</li>
+                <li>Fitness Centre</li>
+                <li>Luxury Spa</li>
+                <li>Adventure Desk</li>
+                <li>Convenience Store</li>
+              </ul>
+            </div>
+
+          </div><!-- /prop-grid-2 -->
+
+          <!-- Financial Metrics -->
+          <div class="financial-row">
+            <div class="metric-card">
+              <p class="metric-label">ADR</p>
+              <p class="metric-value">3,000</p>
+              <p class="metric-unit">THB / Night</p>
+            </div>
+            <div class="metric-card">
+              <p class="metric-label">Occupancy</p>
+              <p class="metric-value">70%</p>
+              <p class="metric-unit">Average OCC</p>
+            </div>
+            <div class="metric-card">
+              <p class="metric-label">Annual Revenue</p>
+              <p class="metric-value">248</p>
+              <p class="metric-unit">Million THB</p>
+            </div>
+          </div>
+
+          <!-- Asking Price -->
+          <div class="price-box">
+            <p class="price-label">💰 Investment Asking Price</p>
+            <p class="price-value">THB 1,700,000,000</p>
+            <p class="price-sub">1,700 Million Baht · Freehold</p>
+          </div>
+
+          <!-- CTAs -->
+          <div class="prop-cta">
+            <a href="https://joecollection.github.io/gardencliff-pattaya/" target="_blank" rel="noopener noreferrer" class="btn btn-red">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" stroke="currentColor" stroke-width="1.5"/></svg>
+              Confidential Financial Report
+            </a>
+            <a href="garden-cliff-analysis.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-dark">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M12 10v6m0 0l-3-3m3 3l3-3M3 17V7a2 2 0 012-2h6l2 2h6a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z" stroke="currentColor" stroke-width="1.5"/></svg>
+              Download Pitch Deck (PDF)
+            </a>
+          </div>
+
+        </div><!-- /prop-body -->
+      </div><!-- /property-card -->
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════
+         PROPERTY 2 — MOUNTAIN BEACH RESORT
+    ══════════════════════════════════════════════════════ -->
+    <section id="mountain-beach" class="reveal">
+      <div class="section-divider">
+        <div class="sdl sdl-l"></div>
+        <span class="sh">Property 02</span>
+        <div class="sdl sdl-r"></div>
+      </div>
+
+      <div class="property-card">
+
+        <img
+          src="mb-info.jpeg"
+          alt="Mountain Beach Resort — Pratamnak Hill, Pattaya"
+          class="prop-image"
+          loading="lazy"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+        >
+        <div class="prop-image-placeholder" style="display:none;">
+          Mountain Beach Resort — Image Loading
+        </div>
+
+        <div class="prop-body">
+
+          <p class="prop-number">Property 02 · Pratamnak Hill, Pattaya</p>
+          <h2 class="prop-name">Mountain Beach Resort</h2>
+
+          <div class="prop-badges">
+            <span class="badge badge-gold">⭐ 4-Star Operated</span>
+            <span class="badge badge-red">🏔️ Pratamnak Hill</span>
+            <span class="badge badge-smoke">📜 Freehold · Chanote</span>
+            <span class="badge badge-smoke">318 Keys</span>
+          </div>
+
+          <p class="prop-concept">Well-Established 4-Star Resort on Pratamnak Hill, Pattaya. Currently managed by <em>Destination Hospitality Management Co., Ltd.</em> with strong cash flow and stable long-term returns. Neighbouring prestige brands include <em>Royal Cliff Beach Hotel</em>, <em>InterContinental Pattaya Resort</em>, and <em>Cosy Beach Hotel</em>.</p>
+
+          <div class="prop-grid-2">
+
+            <div class="info-block">
+              <p class="info-block-title">📊 Key Facts</p>
+              <div class="table-scroll">
+                <table>
+                  <thead><tr><th>Field</th><th>Details</th></tr></thead>
+                  <tbody>
+                    <tr><td>No. of Keys</td><td>318 Keys &amp; Suites</td></tr>
+                    <tr><td>Storeys</td><td>8 Storeys — Classic Layout</td></tr>
+                    <tr><td>Built / Opened</td><td>1989 — Long-Term Proven Track Record</td></tr>
+                    <tr><td>Site Area</td><td>5-0-0 Rai (8,000 sq.m.)</td></tr>
+                    <tr><td>Total GFA</td><td>Approx. 19,302 sq.m.</td></tr>
+                    <tr><td>Operator</td><td>Destination Hospitality Mgmt Co., Ltd.</td></tr>
+                    <tr><td>Tenure</td><td>Freehold — Chanote Title</td></tr>
+                    <tr><td>Address</td><td>378/16 Moo 12, Nongprue, Banglamung, Chonburi</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="info-block">
+              <p class="info-block-title">🍽️ Facilities &amp; Outlets</p>
+              <ul class="facility-list">
+                <li><strong>4 F&amp;B Outlets</strong> — Wide range of dining experiences</li>
+                <li>Meeting &amp; Event Facilities</li>
+                <li>Swimming Pools</li>
+                <li>Fitness Centre</li>
+                <li>Luxury Spa</li>
+              </ul>
+            </div>
+
+          </div>
+
+          <div class="financial-row">
+            <div class="metric-card">
+              <p class="metric-label">ADR</p>
+              <p class="metric-value">1,500</p>
+              <p class="metric-unit">THB / Night</p>
+            </div>
+            <div class="metric-card">
+              <p class="metric-label">Occupancy</p>
+              <p class="metric-value">70%</p>
+              <p class="metric-unit">Average OCC</p>
+            </div>
+            <div class="metric-card">
+              <p class="metric-label">Annual Revenue</p>
+              <p class="metric-value">158</p>
+              <p class="metric-unit">Million THB</p>
+            </div>
+          </div>
+
+          <div class="price-box">
+            <p class="price-label">💰 Investment Asking Price</p>
+            <p class="price-value">THB 900,000,000</p>
+            <p class="price-sub">900 Million Baht · Freehold</p>
+          </div>
+
+          <div class="prop-cta">
+            <a href="mailto:joecollection.m@gmail.com?subject=Enquiry%3A%20Mountain%20Beach%20Resort%20Pattaya" class="btn btn-red">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke="currentColor" stroke-width="1.5"/></svg>
+              Request Confidential IM
+            </a>
+            <a href="https://wa.me/66806578387?text=Enquiry%3A%20Mountain%20Beach%20Resort%20Pattaya" target="_blank" rel="noopener noreferrer" class="btn btn-dark">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.713-1.455L0 24zm6.59-4.846c1.66.986 3.284 1.489 4.968 1.491 5.482 0 9.944-4.461 9.947-9.945.002-2.656-1.03-5.153-2.906-7.03C16.824 1.793 14.322 1.06 11.67 1.06 6.185 1.06 1.72 5.522 1.718 11.008c-.001 1.714.46 3.326 1.346 4.81l-.988 3.605 3.7-.977z"/></svg>
+              WhatsApp Enquiry
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer reveal">
+      <span class="footer-mark">Joe Collection</span>
+      <span class="footer-copy">&copy; 2026 — Private Institutional Capital Network. All Rights Reserved.</span>
+    </footer>
+
+  </div><!-- /page-wrapper -->
+
+  <script>
+    const reveals = document.querySelectorAll('.reveal');
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e, i) => {
+        if (e.isIntersecting) {
+          setTimeout(() => e.target.classList.add('visible'), i * 80);
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.08 });
+    reveals.forEach(el => io.observe(el));
+  </script>
+
+</body>
+</html>
